@@ -51,7 +51,7 @@ const SecureDeleteChannel = ({ channelId, onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 z-[150] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+    <div className="fixed inset-0 z-150 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
       <div className="bg-yt-bg border border-yt-border w-full max-w-md p-6 rounded-2xl shadow-2xl space-y-6">
         <div className="flex justify-between items-start">
           <div className="p-3 bg-red-500/10 rounded-full text-red-500">

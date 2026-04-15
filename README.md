@@ -80,16 +80,16 @@ A powerful full-stack YouTube Clone application that mirrors the core capabiliti
 ### 🖥️ Backend Setup
 
 ```bash
-cd backend
+cd BackEnd
 npm install
 ```
 
 Create `.env` file:
 
 ```
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+PORT=8080
+MONGO_URI=mongodb://127.0.0.1:27017/YOUTUBE
+JWT_SECRET=dfsdjlarterthtretogojglkfjgldfg234565tr
 ```
 
 Run server:
@@ -102,10 +102,10 @@ npm start
 
 ---
 
-### 🌐 Frontend Setup
+### 🌐 FrontEnd Setup
 
 ```bash
-cd frontend
+cd FrontEnd
 npm install
 ```
 
@@ -115,13 +115,13 @@ Add in `.env`:
 VITE_BACKEND_SERVER=http://localhost:8080
 ```
 
-Run frontend:
+Run FrontEnd:
 
 ```bash
 npm run dev
 ```
 
-👉 Frontend: http://localhost:5173  
+👉 FrontEnd: http://localhost:5173  
 
 ---
 
@@ -187,7 +187,8 @@ npm run dev
 - Tailwind CSS  
 - Redux Toolkit  
 - React Router  
-- Axios  
+- Axios 
+- dotenv 
 
 ---
 
@@ -207,7 +208,7 @@ GET /api/videos
 
 ### 👍 Engagement
 ```
-POST /api/actions/like
+POST /api/actions/likes
 ```
 
 ### 💬 Comments
